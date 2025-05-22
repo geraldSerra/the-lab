@@ -78,7 +78,8 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    height: 44vh;
+    height: fit-content;
+    margin: var(--sections-small-margin-x);
   }
   .phrase {
     font-size: 54px;
@@ -88,16 +89,17 @@
   }
   .leftSide {
     flex: 1;
-    gap: 20px;
+    gap: 10px;
     align-items: flex-start;
   }
   .rightSide {
     justify-content: left;
-    width: 220px;
+    max-width: 120px;
   }
   .button {
     font-size: 20px;
     width: 100%;
+    border-radius: 15px;
   }
   .bannerImage {
     width: 400px;
@@ -110,6 +112,6 @@
     gap: 10px;
     width: 200px;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }

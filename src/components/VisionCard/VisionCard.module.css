@@ -29,5 +29,10 @@
     font-size: var(--small-font-size);
     padding: var(--small-padding);
     border: 2px solid var(--accent-color);
+    gap: 10px;
+  }
+
+  .title {
+    font-size: var(--small-title-font-size);
   }
 }
