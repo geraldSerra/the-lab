@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   background-color: beige;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   margin: var(--sections-small-margin-x);
-  gap: 15px;
+  gap: 10px;
   background: linear-gradient(
     115deg,
     rgba(0, 184, 198, 0.2) 0%,
@@ -19,11 +19,13 @@
   font-size: var(--title-font-size);
   color: var(--primary-color);
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .info {
   font-size: var(--small-font-size);
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .field {
@@ -35,7 +37,7 @@
   text-align: left;
   border: 1px solid var(--accent-color);
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
   gap: 10px;
 }
 
@@ -52,7 +54,7 @@
   border-radius: 30px;
   border: 1px solid var(--gray-color);
   background-color: transparent;
-  padding: 0 10px;
+  padding: 0 5px;
   box-sizing: border-box;
   font-size: var(--small-font-size);
 }
@@ -65,7 +67,7 @@
   padding: 10px;
   border-radius: 10px;
   font-size: 12px;
-  height: 100px;
+  height: 85px;
   min-width: 50px;
   max-width: 180px;
   box-sizing: border-box;
@@ -112,7 +114,7 @@
     rgba(0, 214, 230, 1) 0%,
     rgba(32, 11, 105, 1) 100%
   );
-  border-radius: 20px;
+  border-radius: 10px;
   display: inline-flex;
   height: 40px;
   justify-content: center;

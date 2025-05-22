@@ -75,6 +75,7 @@ const ContactUsForm = () => {
   const PUBLIC_KEY = "4Oaf7cAT-ytr9Pcbq";
 
   const handleResetForm = () => {
+    setName("");
     setEmail("");
     setSelectedServices([]);
   };
@@ -107,18 +108,13 @@ const ContactUsForm = () => {
             })
             .then(
               () => {
-                console.log("SUCCESS!");
                 handleResetForm();
               },
-              (error) => {
-                console.log("FAILED...", error.text);
-              }
+              (error) => {}
             );
           handleResetForm();
         },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
+        (error) => {}
       );
   };
 
@@ -133,7 +129,7 @@ const ContactUsForm = () => {
           display: "flex",
           width: "100%",
           justifyContent: "space-between",
-          gap: "15px",
+          gap: "10px",
         }}
       >
         <div className={styles.field}>
