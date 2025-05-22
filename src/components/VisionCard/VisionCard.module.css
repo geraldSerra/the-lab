@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 4px solid var(--accent-color);
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1;
+  gap: 20px;
+}
+
+.title {
+  justify-self: flex-start;
+  align-self: flex-start;
+  font-weight: 500;
+  font-size: var(--title-font-size);
+  color: var(--primary-color);
+}
+
+.vision {
+  text-align: left;
+  padding-left: 15px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    font-size: var(--small-font-size);
+  }
+}

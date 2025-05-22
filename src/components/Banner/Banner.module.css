@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  box-sizing: border-box;
+  margin: var(--section-margin-x);
+  max-width: var(--section-max-width);
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 50px;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.bannerImage {
+  width: 700px;
+}
+
+.phrase {
+  font-size: 90px;
+  color: var(--primary-color);
+  font-weight: 700;
+  text-align: left;
+  line-height: 1;
+}
+
+.accentWord {
+  color: var(--accent-color);
+}
+
+.description {
+  font-size: 30px;
+  color: var(--black-color);
+  font-weight: 400;
+  text-align: left;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.button {
+  all: initial;
+  font-size: 24px;
+  font-weight: 500;
+  width: 240px;
+  text-align: center;
+  height: 54px;
+  border-radius: 20px;
+  font-family: inherit;
+}
+
+.contactUs {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-family: inherit;
+}
+
+.seeServices {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  border: 2px solid var(--accent-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 44vh;
+  }
+  .phrase {
+    font-size: 54px;
+  }
+  .description {
+    font-size: var(--medium-font-size);
+  }
+  .leftSide {
+    flex: 1;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .rightSide {
+    justify-content: left;
+    width: 220px;
+  }
+  .button {
+    font-size: 20px;
+    width: 100%;
+  }
+  .bannerImage {
+    width: 400px;
+    justify-content: left;
+    overflow: clip;
+    align-items: flex-start;
+  }
+  .buttonsContainer {
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+}
