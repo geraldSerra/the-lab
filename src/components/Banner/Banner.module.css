@@ -82,7 +82,9 @@
     margin: var(--sections-small-margin-x);
   }
   .phrase {
-    font-size: 54px;
+    font-size: 44px;
+    margin-top: 30px;
+    margin-bottom: 36px;
   }
   .description {
     font-size: var(--medium-font-size);
@@ -94,12 +96,13 @@
   }
   .rightSide {
     justify-content: left;
-    max-width: 120px;
+    max-width: 90px;
   }
   .button {
     font-size: 20px;
     width: 100%;
     border-radius: 15px;
+    height: 50px;
   }
   .bannerImage {
     width: 400px;
@@ -109,7 +112,7 @@
   }
   .buttonsContainer {
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     width: 200px;
     align-items: flex-start;
     margin-top: 10px;

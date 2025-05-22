@@ -7,12 +7,11 @@
 }
 
 .title {
-  height: 50px;
   font-weight: 500;
   padding: 10px;
   border-radius: 20px 20px 0 0;
   font-size: var(--title-font-size);
-  background-color: var(--accent-color);
+  background-color: var(--light-gray-color);
   color: var(--primary-color);
 }
 
@@ -28,7 +27,7 @@
   gap: 30px;
   text-align: left;
   bottom: 40px;
-  padding-left: 70px;
+  padding-left: 20px;
 }
 
 .li {

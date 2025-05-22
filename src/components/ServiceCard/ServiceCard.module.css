@@ -40,6 +40,7 @@
   font-size: var(--medium-font-size);
   text-align: left;
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .iconContainer {
@@ -99,6 +100,7 @@
 
   .expanded {
     width: 100%;
+    max-width: 100%;
   }
 
   .detail {

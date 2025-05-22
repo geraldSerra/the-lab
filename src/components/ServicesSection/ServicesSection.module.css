@@ -25,21 +25,20 @@
 
 @media only screen and (max-width: 600px) {
   .section {
-    padding: 15px;
+    padding: 10px;
     gap: 10px;
     margin: 0;
     border-radius: 0;
   }
 
   .leftSide {
-    min-width: 45%;
-    max-width: 45%;
+    flex: 1;
     height: 350px;
+    padding: 5px 0;
   }
 
   .rightSide {
-    min-width: 55%;
-    max-width: 55%;
-    gap: 15px;
+    flex: 1;
+    gap: 10px;
   }
 }
