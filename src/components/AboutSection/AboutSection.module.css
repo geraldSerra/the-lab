@@ -21,5 +21,12 @@
 @media only screen and (max-width: 600px) {
   .section {
     flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    margin: var(--sections-small-margin-x);
+  }
+
+  .mission_vision {
+    gap: 10px;
   }
 }

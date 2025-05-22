@@ -23,5 +23,6 @@
 @media only screen and (max-width: 600px) {
   .container {
     font-size: var(--small-font-size);
+    padding: 20px;
   }
 }

@@ -18,12 +18,14 @@ body {
   --black-color: #030303;
   --light-gray-color: #f2f2f2;
   --gray-color: #b6b6b6;
-  --small-font-size: 14px;
+  --small-font-size: 13px;
   --medium-font-size: 16px;
   --large-font-size: 18px;
   --title-font-size: 28px;
   --section-max-width: 1400px;
   --section-margin-x: 0px 20px;
+  --sections-small-margin-x: 0px 10px;
+  --small-padding: 15px;
 }
 
 code {

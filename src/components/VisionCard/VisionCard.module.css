@@ -27,5 +27,7 @@
 @media only screen and (max-width: 600px) {
   .container {
     font-size: var(--small-font-size);
+    padding: var(--small-padding);
+    border: 2px solid var(--accent-color);
   }
 }
