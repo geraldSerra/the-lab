@@ -90,7 +90,7 @@ const ContactUsForm = () => {
     );
 
     const formData = {
-      name: "Gerald",
+      name: name,
       title: requestedServices.join(", "),
       email: email,
     };
@@ -133,13 +133,13 @@ const ContactUsForm = () => {
         }}
       >
         <div className={styles.field}>
-          <div className={styles.label}>Name *</div>
+          <div className={styles.label}>Full name *</div>
           <input
             className={styles.emailInput}
             type="text"
             name="name"
             value={name}
-            placeholder="Gerald Brito"
+            placeholder=""
             onChange={(e) => handleName(e.target.value)}
             required
           />
