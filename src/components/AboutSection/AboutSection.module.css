@@ -1,14 +1,12 @@
 .section {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   box-sizing: border-box;
-  padding: 20px;
+  padding: var(--large-padding);
   gap: 20px;
-  border-radius: 20px;
-  border: 2px solid var(--primary-color);
+  /* border: 2px solid var(--primary-color); */
   margin: var(--section-margin-x);
   max-width: var(--section-max-width);
+  background-color: var(--white-color);
 }
 
 .mission_vision {
@@ -21,12 +19,12 @@
 @media only screen and (max-width: 600px) {
   .section {
     flex-direction: column;
-    padding: 10px;
-    gap: 10px;
+    padding: var(--small-padding);
+    gap: var(--small-gap);
     margin: var(--sections-small-margin-x);
   }
 
   .mission_vision {
-    gap: 10px;
+    gap: var(--small-gap);
   }
 }

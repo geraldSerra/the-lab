@@ -17,15 +17,15 @@
 }
 
 .rightSide {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: var(--large-gap);
 }
 
 @media only screen and (max-width: 600px) {
   .section {
-    padding: 10px;
+    padding: 40px 10px;
     gap: 10px;
     margin: 0;
     border-radius: 0;
@@ -38,7 +38,9 @@
   }
 
   .rightSide {
+    display: flex;
     flex: 1;
-    gap: 10px;
+    flex-direction: column;
+    gap: var(--small-gap);
   }
 }

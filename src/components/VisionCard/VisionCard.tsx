@@ -6,10 +6,18 @@ type VisionCardProps = {
 };
 
 const VisionCard = ({ title, children }: VisionCardProps) => {
+  let variant = "";
+
+  if (title === "Mission") {
+    variant = `${styles.container} ${styles.mission}`;
+  } else {
+    variant = `${styles.container} ${styles.vision}`;
+  }
+
   return (
-    <div className={styles.container}>
+    <div className={variant}>
       <div className={styles.title}>{title}</div>
-      <p className={styles.vision}>{children}</p>
+      <p className={styles.description}>{children}</p>
     </div>
   );
 };

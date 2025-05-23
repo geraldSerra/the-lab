@@ -1,7 +1,6 @@
 .container {
   display: flex;
   align-items: center;
-  height: 70vh;
   box-sizing: border-box;
   margin: var(--section-margin-x);
   max-width: var(--section-max-width);
@@ -9,22 +8,23 @@
 
 .leftSide {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
   gap: 50px;
 }
 
 .rightSide {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
 
 .bannerImage {
-  width: 700px;
+  width: 100%;
 }
 
 .phrase {
@@ -48,9 +48,11 @@
 
 .buttonsContainer {
   display: flex;
+  width: 100%;
   align-items: center;
+  justify-content: flex-start;
   gap: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .button {
@@ -60,7 +62,7 @@
   width: 240px;
   text-align: center;
   height: 54px;
-  border-radius: 20px;
+  border-radius: var(--medium-border-radius);
   font-family: inherit;
 }
 
@@ -71,7 +73,7 @@
 }
 
 .seeServices {
-  background-color: var(--white-color);
+  background-color: var(--accent-color);
   color: var(--primary-color);
   border: 2px solid var(--accent-color);
 }

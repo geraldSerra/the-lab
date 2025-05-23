@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Inter", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -12,21 +11,34 @@ body {
 }
 
 :root {
+  /*colors*/
+  --background-color: #eff4f8;
   --primary-color: #200b69;
   --accent-color: #00d6e6;
   --white-color: #fff;
   --black-color: #030303;
   --light-gray-color: #f2f2f2;
   --gray-color: #b6b6b6;
-  --small-font-size: 13px;
-  --medium-font-size: 16px;
+  /*fonts*/
+  --small-font-size: 12px;
+  --medium-font-size: 14px;
   --large-font-size: 18px;
   --title-font-size: 28px;
   --small-title-font-size: 24px;
-  --section-max-width: 1400px;
+  /*sections*/
+  --section-max-width: 1200px;
   --section-margin-x: 0px 20px;
   --sections-small-margin-x: 0px 10px;
   --small-padding: 15px;
+  --large-padding: 20px;
+  --small-border-radius: 10px;
+  --medium-border-radius: 15px;
+  --large-border-radius: 20px;
+  --small-padding: 10px;
+  --medium-padding: 15px;
+  --small-gap: 10px;
+  --medium-gap: 15px;
+  --large-gap: 20px;
 }
 
 code {

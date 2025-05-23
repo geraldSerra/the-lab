@@ -8,11 +8,13 @@
   height: 100%;
   overflow: hidden;
   gap: 30px;
+  background-color: var(--background-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-width: 600px) {
+.App {
+  gap: 10px;
+}
 }
 
 @media (prefers-reduced-motion: no-preference) {
