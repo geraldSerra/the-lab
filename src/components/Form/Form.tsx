@@ -197,7 +197,7 @@ const ContactUsForm = () => {
             value={preference}
             onChange={(e) => handlePreference(e.target.value)}
           >
-            <option value="">-- Select what fit you --</option>
+            <option value="">-- Select what fits you --</option>
             <option value="E-mail">Email</option>
             <option value="Phone call">Phone call</option>
             <option value="WhatsApp">WhatsApp</option>

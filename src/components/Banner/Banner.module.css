@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: var(--section-margin-x);
   max-width: var(--section-max-width);
+  padding-top: 40px;
+  margin-top: var(--navbar-height);
 }
 
 .leftSide {
@@ -64,6 +66,7 @@
   height: 54px;
   border-radius: var(--medium-border-radius);
   font-family: inherit;
+  cursor: pointer;
 }
 
 .contactUs {
@@ -82,6 +85,8 @@
   .container {
     height: fit-content;
     margin: var(--sections-small-margin-x);
+    margin-top: var(--navbar-height);
+    padding-top: 20px;
   }
   .phrase {
     font-size: 44px;
@@ -118,5 +123,31 @@
     width: 200px;
     align-items: flex-start;
     margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 780px) {
+  .phrase {
+    font-size: 46px;
+    margin-top: 30px;
+    margin-bottom: 36px;
+  }
+  .description {
+    font-size: var(--large-font-size);
+  }
+  .leftSide {
+    max-width: 55%;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .rightSide {
+    justify-content: left;
+    max-width: 40%;
+  }
+  .button {
+    font-size: var(--large-font-size);
+    width: 200px;
+    border-radius: 15px;
+    height: 40px;
   }
 }

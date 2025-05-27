@@ -39,6 +39,11 @@ body {
   --small-gap: 10px;
   --medium-gap: 15px;
   --large-gap: 20px;
+  --navbar-height: 70px;
+
+  @media only screen and (max-width: 600px) {
+    --navbar-height: 50px;
+  }
 }
 
 code {

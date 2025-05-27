@@ -1,9 +1,10 @@
 import styles from "./Banner.module.css";
 import bannerImage from "../../assets/the-lab-banner-image.png";
+import scrollToSection from "../../utils/scrollToSection";
 
 const Banner = () => {
   return (
-    <section className={styles.container}>
+    <section id="home" className={styles.container}>
       <div className={styles.leftSide}>
         <p className={styles.phrase}>
           Boost your brand to the{" "}
@@ -14,10 +15,16 @@ const Banner = () => {
           marketing and design solutions
         </p>
         <div className={styles.buttonsContainer}>
-          <button className={`${styles.button} ${styles.contactUs}`}>
+          <button
+            className={`${styles.button} ${styles.contactUs}`}
+            onClick={() => scrollToSection("contact")}
+          >
             Contact us
           </button>
-          <button className={`${styles.button} ${styles.seeServices}`}>
+          <button
+            className={`${styles.button} ${styles.seeServices}`}
+            onClick={() => scrollToSection("services")}
+          >
             See services
           </button>
         </div>

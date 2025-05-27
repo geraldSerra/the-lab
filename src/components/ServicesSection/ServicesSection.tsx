@@ -12,7 +12,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <section className={styles.section}>
+    <section id="services" className={styles.section}>
       <div className={styles.leftSide}>
         <ServiceCard
           service={selected}

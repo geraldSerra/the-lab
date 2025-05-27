@@ -1,0 +1,52 @@
+.navBar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: var(--black-color);
+  background-color: var(--background-color);
+  font-weight: 500;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: var(--navbar-height);
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--section-max-width);
+  margin: var(--section-margin-x);
+  box-sizing: border-box;
+}
+
+.content > ul {
+  display: flex;
+  gap: var(--small-gap);
+}
+
+.content > ul > li {
+  all: unset;
+}
+
+.button {
+  all: unset;
+  font-size: var(--large-font-size);
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.button:hover {
+  color: var(--accent-color);
+}
+
+.contact {
+  border-radius: var(--small-border-radius);
+  border: 1px solid var(--accent-color);
+  padding: 5px 15px;
+}

@@ -4,31 +4,31 @@
   flex: 1;
   justify-content: flex-end;
   --title-height: 50px;
-  font-size: var(--large-font-size);
+  font-size: var(--medium-font-size);
+  background-color: var(--light-gray-color);
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .title {
   font-size: var(--title-font-size);
   font-weight: 500;
-  padding: 10px;
   border-radius: 20px 20px 0 0;
   background-color: var(--light-gray-color);
   color: var(--primary-color);
 }
 
 .reasonContainer {
-  padding: 20px;
   margin: 0;
   display: flex;
   flex: 1;
   height: 100%;
   flex-direction: column;
-  background-color: var(--light-gray-color);
-  border-radius: 0 0 20px 20px;
-  gap: 30px;
+  gap: 10px;
   text-align: left;
   bottom: 40px;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .li {
@@ -36,16 +36,20 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  background-color: var(--white-color);
+  padding: var(--medium-padding);
+  border-radius: var(--small-border-radius);
 }
 
 .bullet {
-  width: 15px;
-  height: 15px;
+  min-width: 8px;
+  aspect-ratio: 1;
   background-color: var(--primary-color);
 }
 
 @media only screen and (max-width: 600px) {
   .container {
     font-size: var(--small-font-size);
+    border-radius: 0 0 20px 20px;
   }
 }

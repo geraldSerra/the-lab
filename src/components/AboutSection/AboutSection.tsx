@@ -15,7 +15,7 @@ const VISION =
 
 const AboutSection = () => {
   return (
-    <section className={styles.section}>
+    <section id = "about" className={styles.section}>
       <AboutUsCard title="About Us">{ABOUT_US}</AboutUsCard>
       <div className={styles.mission_vision}>
         <VisionCard title="Mission">{MISSION}</VisionCard>
