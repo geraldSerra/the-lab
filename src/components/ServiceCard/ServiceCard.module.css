@@ -11,6 +11,10 @@
   transition: all 0.4s;
 }
 
+.container:hover {
+  background-color: rgb(219, 219, 219);
+}
+
 .selected {
   box-shadow: 0px 5px 1px var(--accent-color);
   gap: 15px;

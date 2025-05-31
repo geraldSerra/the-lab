@@ -24,7 +24,7 @@
   box-sizing: border-box;
 }
 
-.content > ul {
+.buttonContainer {
   display: flex;
   gap: var(--small-gap);
 }
@@ -45,8 +45,25 @@
   color: var(--accent-color);
 }
 
+.img {
+  height: 100%;
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
 .contact {
   border-radius: var(--small-border-radius);
   border: 1px solid var(--accent-color);
   padding: 5px 15px;
+  color: var(--accent-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonContainer {
+    display: none;
+  }
+
+  .content {
+    margin: var(--sections-small-margin-x);
+  }
 }

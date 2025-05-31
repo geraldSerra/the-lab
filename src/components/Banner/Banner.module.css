@@ -75,10 +75,18 @@
   font-family: inherit;
 }
 
+.contactUs:hover {
+  background-color: var(--primary-hover-color);
+}
+
 .seeServices {
   background-color: var(--accent-color);
   color: var(--primary-color);
   border: 2px solid var(--accent-color);
+}
+
+.seeServices:hover {
+  background-color: var(--accent-hover-color);
 }
 
 @media only screen and (max-width: 600px) {

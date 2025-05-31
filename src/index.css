@@ -14,7 +14,9 @@ body {
   /*colors*/
   --background-color: #eff4f8;
   --primary-color: #200b69;
-  --accent-color: #00d6e6;
+  --primary-hover-color: #1f0b69c7;
+  --accent-color: #00cfde;
+  --accent-hover-color: #00d7e6a9;
   --white-color: #fff;
   --black-color: #030303;
   --light-gray-color: #f2f2f2;

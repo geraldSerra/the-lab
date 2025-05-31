@@ -15,6 +15,7 @@ const ContactUsForm = () => {
   const [phone, setPhone] = useState("");
   const [preference, setPreference] = useState("");
   const [selectedServices, setSelectedServices] = useState<serviceType[]>([]);
+  const [isSubmited, setIsSubmited] = useState(false);
 
   const handleEmail = (value: string) => {
     setEmail(value);
@@ -121,6 +122,7 @@ const ContactUsForm = () => {
             .then(
               () => {
                 handleResetForm();
+                alert("Your request was submitted!");
               },
               (error) => {}
             );

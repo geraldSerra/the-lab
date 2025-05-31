@@ -1,14 +1,31 @@
 .section {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  max-width: var(--section-max-width);
+  margin: var(--section-margin-x);
+  padding: 40px;
+  gap: 60px;
+  box-sizing: border-box;
+  border-radius: var(--large-border-radius);
+}
+
+.content {
+  display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
   gap: 40px;
-  padding: 40px;
+
   box-sizing: border-box;
-  background-color: var(--primary-color);
-  max-width: var(--section-max-width);
-  margin: var(--section-margin-x);
+}
+
+.title {
+  width: 100%;
+  font-size: 40px;
+  color: var(--white-color);
 }
 
 .leftSide {
@@ -26,6 +43,16 @@
 @media only screen and (max-width: 600px) {
   .section {
     padding: 40px 10px;
+    border-radius: 0;
+    margin: 0;
+    gap: 40px;
+  }
+
+  .title {
+    font-size: var(--title-font-size);
+  }
+
+  .content {
     gap: 10px;
     margin: 0;
     border-radius: 0;

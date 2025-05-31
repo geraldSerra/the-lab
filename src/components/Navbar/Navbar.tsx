@@ -1,11 +1,12 @@
 import styles from "./Navbar.module.css";
 import scrollToSection from "../../utils/scrollToSection";
+import logo from "../../assets/the-lab-blue-icon.png"
 
 const NavBar = () => {
   return (
     <nav className={styles.navBar}>
       <div className={styles.content}>
-        <div>Logo</div>
+          <img className={styles.img} src={logo} alt="The lab icon" />
         <ul className={styles.buttonContainer}>
           <li>
             <button

@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
 import ContactUsSection from "./components/ContactUsSection/ContactUsSection";
 import NavBar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutSection />
       <ServicesSection />
       <ContactUsSection />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 50px 30px;
+  gap: 60px;
+  color: var(--white-color);
+  box-sizing: border-box;
+}
+
+.phrase {
+  font-size: 26px;
+}
+
+.img {
+  width: 120px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-color);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+  width: 100%;
+}
