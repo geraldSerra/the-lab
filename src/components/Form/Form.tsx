@@ -81,7 +81,7 @@ const ContactUsForm = () => {
 
   const SERVICE_ID = "service_c2rly3j";
   const TEMPLATE_ID = "template_7rp885p";
-  const PUBLIC_KEY = "4Oaf7cAT-ytr9Pcbq";
+  const PUBLIC_KEY = "T_k4IW6b-U-KinmN6";
 
   const handleResetForm = () => {
     setName("");
